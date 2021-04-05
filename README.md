@@ -10,7 +10,7 @@ This model is capable of performing good quality **image inpainting, denoising a
   <img src="Images/Untitled%20Diagram.png">
 </p>
 </br>
-I have used fully convolutional approach using Decoder for image generation but the activation employed is **Gated_Activation** ,as proposed in the paper <a href="https://arxiv.org/abs/1606.05328"> Conditional Image Generation with PixelCNN Decoders</a> ,without the sequential masked convolution approach(which is slow).
+I have used fully convolutional approach using Decoder for image generation but the activation employed is <b> Gated_Activation </b> ,as proposed in the paper <a href="https://arxiv.org/abs/1606.05328"> Conditional Image Generation with PixelCNN Decoders</a> ,without the sequential masked convolution approach(which is slow).
 
 </br>
 Advantages: </br>
@@ -35,3 +35,13 @@ To mimic real world scenario random white lines are drawn on the dataset while i
 <img src="Images/Using%20Gated%20Activation%20(3).png">
 </br>
 <img src="Images/Input%20to%20Model%20(3).png">
+
+# To Do
+This Project has been trained using kaggle TPU, so running the Jupyter Notebook on Kaggle will be most convinient.
+
+# Refernces:
+<a href="https://wandb.ai/site/articles/introduction-to-image-inpainting-with-deep-learning"> Data Preparation Motivation</a>
+</br>
+<a href="https://colab.research.google.com/github/zalandoresearch/pytorch-vq-vae/blob/master/vq-vae.ipynb"> Official VQ-VAE Implementation</a>
+</br>
+To know more about VQ-VAE checkout this blog: <a href="https://wandb.ai/site/articles/introduction-to-image-inpainting-with-deep-learning"> https://ml.berkeley.edu/blog/posts/vq-vae/</a>
