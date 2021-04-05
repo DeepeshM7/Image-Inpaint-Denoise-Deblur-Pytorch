@@ -19,7 +19,7 @@ Advantages: </br>
 (ii)Time-efficient Approach
 </b>
 </br>
-
+</br>
 I have also tested an equivalent decoder with Relu activation and can say that the Gated_Activation produces superior results.
 
 # Methedology
