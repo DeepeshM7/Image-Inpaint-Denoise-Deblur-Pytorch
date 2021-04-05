@@ -2,15 +2,23 @@
 
 This model is capable of performing good quality **image inpainting, denoising and debluring simultaneously** in time efficient manner!! 
 </br>
-
-<img src="Images/Untitled%20Diagram.png">
+<p align="center">
+  All Results shown are from <b> Validation Set</b> 
+</p>  
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+</br>
+<p align="center">
+  <img src="Images/Untitled%20Diagram.png">
+</p>
 </br>
 I have used fully convolutional approach using Decoder for image generation but the activation employed is **Gated_Activation** ,as proposed in the paper <a href="https://arxiv.org/abs/1606.05328"> Conditional Image Generation with PixelCNN Decoders</a> ,without the sequential masked convolution approach(which is slow).
 
 </br>
 Advantages: </br>
-**(i)Good Quality Results** </br>
-**(ii)Time-efficient Approach**
+<b>
+(i)Good Quality Results</br>
+(ii)Time-efficient Approach
+</b>
 </br>
 
 I have also tested an equivalent decoder with Relu activation and can say that the Gated_Activation produces superior results.
