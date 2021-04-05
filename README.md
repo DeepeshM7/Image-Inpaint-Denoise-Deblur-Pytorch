@@ -5,8 +5,7 @@ This model is capable of performing good quality **image inpainting, denoising a
 <p align="center">
   All Results shown are from <b> Validation Set</b> 
 </p>  
--------------------------------------------------------------------------------------------------------------------------------------------------------
-</br>
+---------------------------------------------------------------------------------------------------------------------------------
 <p align="center">
   <img src="Images/Untitled%20Diagram.png">
 </p>
